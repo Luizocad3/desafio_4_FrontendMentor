@@ -1,0 +1,64 @@
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    background: hsl(0, 0%, 8%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "inter";
+    margin: 60px 0px;
+}
+
+section {
+    background: hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#color-paragrafo {
+    color: hsl(75, 94%, 57%);
+}
+
+#Imagem {
+    border-radius: 100px;
+    width: 100px;
+}
+
+/*-------- Formatando Lista --------------*/
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:hover {
+    background: hsl(75, 94%, 57%);
+    color: black;
+}
+
